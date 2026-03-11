@@ -55,7 +55,7 @@ function StatCard({ label, value, icon: Icon, gradient }: StatCardProps) {
 
 interface RecentEmployeeProps {
   employee: {
-    id: string;
+    id: number;
     full_name: string;
     department: string;
     employee_id: string;
